@@ -1,4 +1,4 @@
-# Contract Playground
+# zkPolygon
 
 This is a Hardhat project with several simple contracts and their test in TypeScript. It uses [OpenZeppelin](https://www.openzeppelin.com/) contracts as the base contract most of the time.
 
@@ -6,11 +6,8 @@ Compiled contracts are fed into [TypeChain](https://github.com/dethcrypto/TypeCh
 
 ## Usage
 
-- `yarn compile` to compile the contracts.
-- `yarn test` to test the contracts.
-- `yarn lint` to lint everything.
-- `yarn node:start` to start a Hardhat node on `localhost`.
-- `yarn node:run <path>` to run a script at the given path on `localhost`.
+- `npx hardhat compile` to compile the contracts.
+- `hardhat run --network zkPolygonTestnet scripts\deploy.ERC667.ts` to deploy test contracts.
 
 ## Formatting & Linting
 
