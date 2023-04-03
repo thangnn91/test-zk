@@ -1,0 +1,9 @@
+node_modules
+cache
+build
+typechain
+artifacts
+artifacts-zk
+cache-zk
+coverage*
+.env
