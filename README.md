@@ -7,7 +7,7 @@ Compiled contracts are fed into [TypeChain](https://github.com/dethcrypto/TypeCh
 ## Usage
 
 - `npx hardhat compile` to compile the contracts.
-- `hardhat run --network zkPolygonTestnet scripts\deploy.ERC667.ts` to deploy test contracts.
+- `npx hardhat run --network zkPolygonTestnet scripts\deploy.ERC667.ts` to deploy test contracts.
 
 ## Formatting & Linting
 
